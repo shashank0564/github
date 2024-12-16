@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: githubsnk
+  name: github-shashank
   annotations:
     github.com/project-slug: shashank0564/github
 spec:
-  type: other
-  lifecycle: unknown
+  type: github repo
+  lifecycle: 2 year
   owner: shashank
