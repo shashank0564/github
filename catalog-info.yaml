@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: Devops-Testing
   description: |
-    Backstage CLeartax developer portal that puts the developer experience first.
+    Backstage Cleartax developer portal that puts the developer experience first.
   links:
     - title: Grafana
       url: https://grafana-prod.internal.cleartax.co/
@@ -16,8 +16,20 @@ metadata:
     - title: Slack Chat
       url: https://retool.internal.cleartax.co/
     - title: Jira
-      url: https://cleartaxtech.atlassian.net/   
+      url: https://cleartaxtech.atlassian.net/
 spec:
   type: library
-  owner: Devops
+  owner: devops
   lifecycle: production
+  subcomponentOf: Cleartax-infra # Link to the parent component
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Cleartax-infra
+  description: This repo has been managed by devops-infra team
+spec:
+  type: repo
+  owner: devops
+  lifecycle: 3 years
+
