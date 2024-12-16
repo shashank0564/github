@@ -12,7 +12,11 @@ metadata:
     - title: Pagerduty
       url: https://ct-zurg.pagerduty.com/
     - title: Slack Chat
-      url: https://cleartaxtech.slack.com/
+      url: https://cleartaxtech.app.coralogix.in/
+    - title: coralogix
+      url: https://cleartaxtech.app.coralogix.in/
+    - title: Slack Chat
+      url: https://retool.internal.cleartax.co/
 spec:
   type: library
   owner: Devops
