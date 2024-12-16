@@ -1,10 +1,19 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: github-shashank
-  annotations:
-    github.com/project-slug: shashank0564/github
+  name: Devops-Testing
+  description: |
+    Backstage CLeartax developer portal that puts the developer experience first.
+  links:
+    - title: Grafana
+      url: https://grafana-prod.internal.cleartax.co/
+    - title: Documentation
+      url: https://outline.internal.cleartax.co/
+    - title: Pagerduty
+      url: https://ct-zurg.pagerduty.com/
+    - title: Slack Chat
+      url: https://cleartaxtech.slack.com/
 spec:
-  type: github repo
-  lifecycle: 2 year
-  owner: shashank
+  type: library
+  owner: Devops
+  lifecycle: production
