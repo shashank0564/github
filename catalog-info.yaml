@@ -12,7 +12,7 @@ metadata:
     - title: Pagerduty
       url: https://ct-zurg.pagerduty.com/
     - title: coralogix
-      url: https://cleartaxtech.app.coralogix.in/#/dashboard
+      url: https://cleartaxtech.app.coralogix.in/#/query-new/logs?id=6Mji0kawDL3qjNQfhxn4M&page=0
     - title: Slack Chat
       url: https://retool.internal.cleartax.co/
     - title: Jira
